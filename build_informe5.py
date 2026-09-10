@@ -86,7 +86,8 @@ filas_datos = [
     ["3", "Los cinco componentes de la misión, cada uno con su fragmento literal", "Sí",
      f"{REPO}/blob/main/02_identidad/2.1_mision.md"],
     ["4", "Los siete defectos revisados, señalados con su nombre técnico y su prueba",
-     "Sí (7/7 aplican)", f"{REPO}/blob/main/evidencias/S04/diagnostico.txt"],
+     "Sí (3/7 aplican; 2 no aplican; 2 no evaluables con información pública)",
+     f"{REPO}/blob/main/evidencias/S04/diagnostico.txt"],
     ["5", "Prueba de sustitución ejecutada con tres competidores reales", "Sí",
      f"{REPO}/blob/main/evidencias/S04/diagnostico.txt"],
     ["6", "Prueba de la decisión y prueba del reconocimiento respondidas", "Sí",
@@ -138,8 +139,10 @@ add_bullets(h4, [
     "Nombrar el defecto con su término técnico y probarlo con evidencia textual — y no "
     "con una impresión como «es muy general» — es lo único que sostiene una "
     "recomendación ante la alta dirección: de los siete defectos evaluados sobre la "
-    "misión de Crehana, los siete aplicaban, cada uno con su fragmento de evidencia "
-    "específico.",
+    "misión de Crehana, tres aplicaban con evidencia directa (intercambiable, "
+    "confunde misión con visión, omite al destinatario) y dos no pudieron evaluarse "
+    "por falta de acceso a información interna de la empresa — se documentó esa "
+    "limitación con honestidad en vez de forzar un veredicto sin evidencia.",
     "La ausencia de una visión formal no es un vacío neutro: obliga a construir "
     "cualquier plan de TI sobre datos sueltos (como los más de 1200 clientes y los 10 "
     "años de trayectoria que sí publica la empresa) en lugar de sobre una meta "

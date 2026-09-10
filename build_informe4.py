@@ -99,9 +99,10 @@ cur = add_paragraphs(h_pasoB, [
     "3-TALLER.md) y se ejecutó con Python 3.13.7 y matplotlib 3.11.1.",
 ])
 cur = add_paragraphs(cur, [
-    "Resultado: 1 de 5 componentes presente, 7 de 7 defectos identificados, 0 de 3 "
-    "pruebas de calidad superadas. Veredicto: SE REFORMULA (porta 3 componentes o "
-    "menos)."
+    "Resultado: 1 de 5 componentes presente; 3 de 7 defectos confirmados con "
+    "evidencia (Intercambiable, Confunde misión con visión, Omite al destinatario), "
+    "2 que no aplican y 2 no evaluables con información pública; 0 de 3 pruebas de "
+    "calidad superadas. Veredicto: SE REFORMULA (porta 3 componentes o menos)."
 ])
 add_image_paragraph(cur, GRAF, width_in=5.5,
                      caption="Figura 1. Gráfico resumen del diagnóstico de la misión de Crehana.")

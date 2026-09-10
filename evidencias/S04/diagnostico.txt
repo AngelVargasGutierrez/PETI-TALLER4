@@ -16,22 +16,22 @@ MISION VIGENTE (texto literal):
   Componentes presentes: 1 / 5
 
 --- 2. LOS SIETE DEFECTOS TECNICOS ---
-  [DEFECTO] Generalidad excesiva
-      Evidencia: La frase podria pertenecer a cualquier empresa de software, banco o consultora: no contiene ningun termino propio del sector de gestion de talento.
-  [DEFECTO] Ausencia de destinatario explicito
-      Evidencia: No nombra 'empresas', 'clientes' ni 'equipos de RR.HH.' -- estos datos solo aparecen en otras secciones de la pagina, no en la oracion de mision.
-  [DEFECTO] Ausencia de elemento distintivo
-      Evidencia: No explica por que Crehana, y no Buk o Runa HR, deberia 'construir equipos listos para el futuro'.
-  [DEFECTO] Confusion con eslogan publicitario
-      Evidencia: Comparte el mismo registro corto y aspiracional que la linea de cierre de marketing de la propia pagina: 'Impulsamos equipos. Potenciamos culturas. Transformamos resultados.'
-  [DEFECTO] Sobrepromesa sin sustento medible
-      Evidencia: 'Listos para el futuro' no define ninguna metrica ni plazo que permita verificar si la promesa se cumple.
-  [DEFECTO] Ausencia de compromiso o principios
-      Evidencia: No hay mencion a etica, calidad de datos, privacidad ni ningun otro principio que rija como se ejecuta la mision.
-  [DEFECTO] Ausencia de actividad concreta identificable
-      Evidencia: No hay verbo de accion operativo (no dice 'desarrollamos software', 'capacitamos' ni 'conectamos datos'): 'construir equipos' describe un resultado, no una actividad.
+  [DEFECTO] Intercambiable
+      Evidencia: Sirve para cualquier organizacion del pais: sustituida por Buk, Runa HR o Platzi para Empresas, la frase sigue sonando igual de valida (ver prueba de sustitucion).
+  [DEFECTO] Confunde mision con vision
+      Evidencia: 'Construir equipos listos para el futuro' es una aspiracion sobre un estado futuro, no una descripcion de la actividad actual de la empresa (no responde 'que hacemos hoy', sino 'que querriamos lograr').
+  [no aplica] Enumera valores
+      Evidencia: No aplica: la declaracion no enumera valores sueltos (tipo 'honestidad, respeto, innovacion'); es una unica frase, no una lista.
+  [DEFECTO] Omite al destinatario
+      Evidencia: No dice para quien: no menciona 'empresas', 'clientes' ni 'equipos de Recursos Humanos' dentro de la propia oracion de mision.
+  [no aplica] Extension desmedida
+      Evidencia: No aplica: la declaracion tiene 8 palabras, muy por debajo del umbral de un parrafo extenso que nadie recuerda ni usa.
+  [no evaluable] Contradice la practica
+      Evidencia: No evaluable con informacion publica: verificar una contradiccion entre la declaracion y la practica real exigiria acceso interno a la operacion de Crehana (por ejemplo, sus procesos de atencion o desarrollo de producto), que no estaba disponible para este taller.
+  [no evaluable] Escrita por una sola persona
+      Evidencia: No evaluable con informacion publica: el proceso de redaccion (participativo o unipersonal) no se declara en la pagina oficial ni en ninguna fuente publica consultada.
 
-  Defectos identificados: 7 / 7
+  Defectos identificados: 3 / 7  (no aplican: 2, no evaluables con informacion publica: 2)
 
 --- 3. LAS TRES PRUEBAS DE CALIDAD ---
   a) Prueba de sustitucion (con tres competidores reales):
@@ -41,13 +41,13 @@ MISION VIGENTE (texto literal):
      Resultado: NO SUPERA la prueba de sustitucion
 
   b) Prueba de la decision:
-     Pregunta: ¿Esta declaracion permite decidir si Crehana deberia lanzar un modulo de nomina (payroll)?
-     Respuesta: No. La frase es demasiado abstracta para orientar ninguna decision concreta de producto, mercado o inversion.
+     Pregunta: ¿Esta declaracion ha servido alguna vez para descartar una alternativa?
+     Respuesta: No verificable historicamente: no se tuvo acceso a personal de Crehana ni a sus actas de decision. Por su nivel de abstraccion, sin embargo, la declaracion no contiene ningun criterio (destinatario, actividad o restriccion) que permita, ni siquiera en principio, descartar una alternativa de producto o de mercado concreta.
      Resultado: NO SUPERA la prueba de la decision
 
   c) Prueba del reconocimiento:
-     Pregunta: Mostrada sin el logotipo, ¿un tercero podria identificar que pertenece a Crehana?
-     Respuesta: No. La oracion no contiene 'talento', 'Recursos Humanos', 'LATAM' ni ningun otro rasgo propio de la marca.
+     Pregunta: ¿Puede un trabajador de Crehana enunciar el sentido de la mision con sus propias palabras?
+     Respuesta: No verificable directamente: no se tuvo acceso a personal de Crehana para entrevistarlo. Se registra como pendiente de comprobacion interna -- exactamente el tipo de limite que 1-TEORIA.md anticipa al exigir declarar una prueba como 'no comprobable' cuando corresponda.
      Resultado: NO SUPERA la prueba del reconocimiento
 
   Pruebas superadas: 0 / 3

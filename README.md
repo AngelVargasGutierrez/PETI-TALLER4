@@ -37,8 +37,9 @@ Fuente: https://www.crehana.com/sobre-nosotros/ (consultado el 10/09/2026).
 Crehana **no publica una visión institucional formal**. La misión vigente
 («Nuestra misión es construir equipos listos para el futuro») porta solo 1
 de los 5 componentes exigidos por la teoría, no supera ninguna de las tres
-pruebas de calidad (sustitución, decisión, reconocimiento) y presenta los 7
-defectos técnicos evaluados. Ambos resultados están documentados con su
+pruebas de calidad (sustitución, decisión, reconocimiento) y presenta 3 de
+los 7 defectos técnicos evaluados (2 no aplican y 2 no son evaluables con
+información pública). Ambos resultados están documentados con su
 evidencia en `02_identidad/2.1_mision.md` y `02_identidad/2.2_vision.md`.
 
 Autor: Angel Vargas Gutierrez — código 20200669922.

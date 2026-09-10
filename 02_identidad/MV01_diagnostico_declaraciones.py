@@ -7,14 +7,11 @@ de calidad de la mision; 5 atributos de la vision) sobre las declaraciones
 literales de una empresa real, y emite el veredicto segun la regla del taller.
 
 Nota de origen: la carpeta de la semana compartida con el estudiante no
-incluia el archivo original ../HERRAMIENTAS/SEMANA-04/MV01_diagnostico_declaraciones.py
-ni 1-TEORIA.md. Este script es una reconstruccion propia que aplica, de forma
-literal, los 5 componentes y las 3 pruebas de calidad tal como los describe
-3-TALLER.md, y una lista de 7 defectos tecnicos con respaldo bibliografico
-estandar de la literatura de planeamiento estrategico (Bart, 1997; David, F.,
-Strategic Management), dado que el listado exacto del docente no estaba
-disponible. Se recomienda verificar la terminologia exacta contra 1-TEORIA.md
-antes de la entrega final.
+incluia originalmente el archivo ../HERRAMIENTAS/SEMANA-04/MV01_diagnostico_declaraciones.py
+(el script del curso en si), por lo que este script es una reconstruccion
+propia. Los 5 componentes, los 7 defectos y las 3 pruebas de calidad se
+aplican de forma literal segun 1-TEORIA.md (Bloque 1 y Bloque 2), una vez que
+dicho archivo fue compartido por el estudiante.
 """
 
 import sys
@@ -66,36 +63,36 @@ COMPONENTES = {
 }
 
 # =====================================================================
-# 3. LOS SIETE DEFECTOS TECNICOS
+# 3. LOS SIETE DEFECTOS TECNICOS (segun 1-TEORIA.md, Bloque 1)
 # =====================================================================
 DEFECTOS = {
-    "Generalidad excesiva": {
+    "Intercambiable": {
         "aplica": True,
-        "evidencia": "La frase podria pertenecer a cualquier empresa de software, banco o consultora: no contiene ningun termino propio del sector de gestion de talento.",
+        "evidencia": "Sirve para cualquier organizacion del pais: sustituida por Buk, Runa HR o Platzi para Empresas, la frase sigue sonando igual de valida (ver prueba de sustitucion).",
     },
-    "Ausencia de destinatario explicito": {
+    "Confunde mision con vision": {
         "aplica": True,
-        "evidencia": "No nombra 'empresas', 'clientes' ni 'equipos de RR.HH.' -- estos datos solo aparecen en otras secciones de la pagina, no en la oracion de mision.",
+        "evidencia": "'Construir equipos listos para el futuro' es una aspiracion sobre un estado futuro, no una descripcion de la actividad actual de la empresa (no responde 'que hacemos hoy', sino 'que querriamos lograr').",
     },
-    "Ausencia de elemento distintivo": {
-        "aplica": True,
-        "evidencia": "No explica por que Crehana, y no Buk o Runa HR, deberia 'construir equipos listos para el futuro'.",
+    "Enumera valores": {
+        "aplica": False,
+        "evidencia": "No aplica: la declaracion no enumera valores sueltos (tipo 'honestidad, respeto, innovacion'); es una unica frase, no una lista.",
     },
-    "Confusion con eslogan publicitario": {
+    "Omite al destinatario": {
         "aplica": True,
-        "evidencia": "Comparte el mismo registro corto y aspiracional que la linea de cierre de marketing de la propia pagina: 'Impulsamos equipos. Potenciamos culturas. Transformamos resultados.'",
+        "evidencia": "No dice para quien: no menciona 'empresas', 'clientes' ni 'equipos de Recursos Humanos' dentro de la propia oracion de mision.",
     },
-    "Sobrepromesa sin sustento medible": {
-        "aplica": True,
-        "evidencia": "'Listos para el futuro' no define ninguna metrica ni plazo que permita verificar si la promesa se cumple.",
+    "Extension desmedida": {
+        "aplica": False,
+        "evidencia": "No aplica: la declaracion tiene 8 palabras, muy por debajo del umbral de un parrafo extenso que nadie recuerda ni usa.",
     },
-    "Ausencia de compromiso o principios": {
-        "aplica": True,
-        "evidencia": "No hay mencion a etica, calidad de datos, privacidad ni ningun otro principio que rija como se ejecuta la mision.",
+    "Contradice la practica": {
+        "aplica": None,
+        "evidencia": "No evaluable con informacion publica: verificar una contradiccion entre la declaracion y la practica real exigiria acceso interno a la operacion de Crehana (por ejemplo, sus procesos de atencion o desarrollo de producto), que no estaba disponible para este taller.",
     },
-    "Ausencia de actividad concreta identificable": {
-        "aplica": True,
-        "evidencia": "No hay verbo de accion operativo (no dice 'desarrollamos software', 'capacitamos' ni 'conectamos datos'): 'construir equipos' describe un resultado, no una actividad.",
+    "Escrita por una sola persona": {
+        "aplica": None,
+        "evidencia": "No evaluable con informacion publica: el proceso de redaccion (participativo o unipersonal) no se declara en la pagina oficial ni en ninguna fuente publica consultada.",
     },
 }
 
@@ -111,15 +108,30 @@ def prueba_sustitucion():
     return resultados, supera
 
 def prueba_decision():
-    pregunta = "¿Esta declaracion permite decidir si Crehana deberia lanzar un modulo de nomina (payroll)?"
-    respuesta = "No. La frase es demasiado abstracta para orientar ninguna decision concreta de producto, mercado o inversion."
+    # Pregunta literal de 1-TEORIA.md (Bloque 1): "¿Ha servido alguna vez
+    # para descartar una alternativa?"
+    pregunta = "¿Esta declaracion ha servido alguna vez para descartar una alternativa?"
+    respuesta = (
+        "No verificable historicamente: no se tuvo acceso a personal de Crehana ni a "
+        "sus actas de decision. Por su nivel de abstraccion, sin embargo, la "
+        "declaracion no contiene ningun criterio (destinatario, actividad o "
+        "restriccion) que permita, ni siquiera en principio, descartar una "
+        "alternativa de producto o de mercado concreta."
+    )
     supera = False
     return pregunta, respuesta, supera
 
 def prueba_reconocimiento():
-    pregunta = "Mostrada sin el logotipo, ¿un tercero podria identificar que pertenece a Crehana?"
-    respuesta = "No. La oracion no contiene 'talento', 'Recursos Humanos', 'LATAM' ni ningun otro rasgo propio de la marca."
-    supera = False
+    # Pregunta literal de 1-TEORIA.md (Bloque 1): "¿Puede un trabajador de
+    # la organizacion enunciar su sentido con sus propias palabras?"
+    pregunta = "¿Puede un trabajador de Crehana enunciar el sentido de la mision con sus propias palabras?"
+    respuesta = (
+        "No verificable directamente: no se tuvo acceso a personal de Crehana para "
+        "entrevistarlo. Se registra como pendiente de comprobacion interna -- "
+        "exactamente el tipo de limite que 1-TEORIA.md anticipa al exigir declarar "
+        "una prueba como 'no comprobable' cuando corresponda."
+    )
+    supera = False  # sin evidencia de reconocimiento interno, no se da por superada
     return pregunta, respuesta, supera
 
 # =====================================================================
@@ -187,12 +199,22 @@ def main():
 
     print("\n--- 2. LOS SIETE DEFECTOS TECNICOS ---")
     n_defectos = 0
+    n_no_evaluables = 0
     for nombre, datos in DEFECTOS.items():
-        if datos["aplica"]:
+        if datos["aplica"] is True:
             n_defectos += 1
             print(f"  [DEFECTO] {nombre}")
             print(f"      Evidencia: {datos['evidencia']}")
-    print(f"\n  Defectos identificados: {n_defectos} / 7")
+        elif datos["aplica"] is False:
+            print(f"  [no aplica] {nombre}")
+            print(f"      Evidencia: {datos['evidencia']}")
+        else:
+            n_no_evaluables += 1
+            print(f"  [no evaluable] {nombre}")
+            print(f"      Evidencia: {datos['evidencia']}")
+    print(f"\n  Defectos identificados: {n_defectos} / 7  "
+          f"(no aplican: {7 - n_defectos - n_no_evaluables}, "
+          f"no evaluables con informacion publica: {n_no_evaluables})")
 
     print("\n--- 3. LAS TRES PRUEBAS DE CALIDAD ---")
     resultados_sust, supera_sust = prueba_sustitucion()
