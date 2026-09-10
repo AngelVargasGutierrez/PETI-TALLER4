@@ -1,0 +1,78 @@
+==============================================================================
+DIAGNOSTICO DE DECLARACIONES INSTITUCIONALES -- Crehana
+Fuente: https://www.crehana.com/sobre-nosotros/  |  Fecha de consulta: 10/09/2026
+==============================================================================
+
+MISION VIGENTE (texto literal):
+  "Nuestra misión es construir equipos listos para el futuro"
+
+--- 1. LOS CINCO COMPONENTES ---
+  [ ] Que hacemos: (ausente) no se identifica un verbo ni una actividad concreta: no menciona plataforma, software ni capacitacion
+  [ ] Para quien: (ausente) no menciona 'empresas', 'equipos de Recursos Humanos' ni 'America Latina' dentro de la propia oracion de mision
+  [ ] Como nos distingue: (ausente) no hay ningun elemento que la diferencie de un competidor del mismo rubro
+  [X] Para que: 'construir equipos listos para el futuro' -- presente mas es un valor vago, sin definir que significa 'listos'
+  [ ] Con que compromiso: (ausente) no hay referencia a principios, etica ni forma de operar
+
+  Componentes presentes: 1 / 5
+
+--- 2. LOS SIETE DEFECTOS TECNICOS ---
+  [DEFECTO] Generalidad excesiva
+      Evidencia: La frase podria pertenecer a cualquier empresa de software, banco o consultora: no contiene ningun termino propio del sector de gestion de talento.
+  [DEFECTO] Ausencia de destinatario explicito
+      Evidencia: No nombra 'empresas', 'clientes' ni 'equipos de RR.HH.' -- estos datos solo aparecen en otras secciones de la pagina, no en la oracion de mision.
+  [DEFECTO] Ausencia de elemento distintivo
+      Evidencia: No explica por que Crehana, y no Buk o Runa HR, deberia 'construir equipos listos para el futuro'.
+  [DEFECTO] Confusion con eslogan publicitario
+      Evidencia: Comparte el mismo registro corto y aspiracional que la linea de cierre de marketing de la propia pagina: 'Impulsamos equipos. Potenciamos culturas. Transformamos resultados.'
+  [DEFECTO] Sobrepromesa sin sustento medible
+      Evidencia: 'Listos para el futuro' no define ninguna metrica ni plazo que permita verificar si la promesa se cumple.
+  [DEFECTO] Ausencia de compromiso o principios
+      Evidencia: No hay mencion a etica, calidad de datos, privacidad ni ningun otro principio que rija como se ejecuta la mision.
+  [DEFECTO] Ausencia de actividad concreta identificable
+      Evidencia: No hay verbo de accion operativo (no dice 'desarrollamos software', 'capacitamos' ni 'conectamos datos'): 'construir equipos' describe un resultado, no una actividad.
+
+  Defectos identificados: 7 / 7
+
+--- 3. LAS TRES PRUEBAS DE CALIDAD ---
+  a) Prueba de sustitucion (con tres competidores reales):
+       "La mision de Buk es construir equipos listos para el futuro"  --  sigue sonando creible -> FALLA
+       "La mision de Runa HR es construir equipos listos para el futuro"  --  sigue sonando creible -> FALLA
+       "La mision de Platzi para Empresas es construir equipos listos para el futuro"  --  sigue sonando creible -> FALLA
+     Resultado: NO SUPERA la prueba de sustitucion
+
+  b) Prueba de la decision:
+     Pregunta: ¿Esta declaracion permite decidir si Crehana deberia lanzar un modulo de nomina (payroll)?
+     Respuesta: No. La frase es demasiado abstracta para orientar ninguna decision concreta de producto, mercado o inversion.
+     Resultado: NO SUPERA la prueba de la decision
+
+  c) Prueba del reconocimiento:
+     Pregunta: Mostrada sin el logotipo, ¿un tercero podria identificar que pertenece a Crehana?
+     Respuesta: No. La oracion no contiene 'talento', 'Recursos Humanos', 'LATAM' ni ningun otro rasgo propio de la marca.
+     Resultado: NO SUPERA la prueba del reconocimiento
+
+  Pruebas superadas: 0 / 3
+
+--- VEREDICTO DE LA MISION ---
+  SE REFORMULA  (regla aplicada: porta 3 componentes o menos)
+
+==============================================================================
+VISION -- la empresa NO publica una declaracion de vision formal
+Declaracion de impacto disponible (sustituta, no es una vision declarada):
+  "Impulsamos equipos. Potenciamos culturas. Transformamos resultados."
+==============================================================================
+
+--- 4. LOS CINCO ATRIBUTOS DE LA VISION (evaluados sobre la declaracion de impacto) ---
+  [ ] Temporalmente acotada: No declara ningun ano ni horizonte temporal.
+  [ ] Verificable: No contiene ninguna cifra objetivo (ni de empresas, ni de paises, ni de ingresos).
+  [?] Ambiciosa pero alcanzable: No se puede evaluar: al no declarar una meta concreta, no hay nada que contrastar contra el tamano real de la empresa (+1200 empresas cliente en LATAM, 10 anios de trayectoria).
+  [ ] Especifica del negocio: 'Impulsamos equipos. Potenciamos culturas. Transformamos resultados.' podria pertenecer a cualquier empresa de consultoria o de recursos humanos.
+  [ ] Movilizadora: No permite decidir, por si sola, ninguna inversion o prioridad concreta de la funcion de TI.
+
+  Atributos que cumple: 0 / 5 (mas 1 no evaluable por ausencia de meta)
+
+--- VEREDICTO DE LA VISION ---
+  NO EVALUABLE COMO VISION -- no existe una declaracion de vision publicada.
+  Hallazgo formal: la ausencia de vision publicada es, en si misma, un defecto
+  de gobierno de la identidad estrategica de la empresa.
+
+Grafico guardado en: graficos/S04_diagnostico.png
